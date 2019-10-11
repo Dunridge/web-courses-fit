@@ -1,0 +1,28 @@
+.wrapper {
+    width: 61%;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
+
+.primary__line {
+    height: 15px;
+    width: 100%;
+    background: #001865;
+}
+
+.wrapper__header {
+    margin-top: 18px;
+    color: #bababa;
+}
+
+.wrapper__post {
+    width: 100px;
+    outline: 1px solid #bababa;
+    display: flex;
+}
+
+.wrapper__up {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}

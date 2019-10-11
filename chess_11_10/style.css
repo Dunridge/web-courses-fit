@@ -1,0 +1,36 @@
+.block,
+.letter,
+.number {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #aaa;
+    float: left;
+}
+
+.line {
+    clear: both;
+}
+
+.color:nth-child(odd) {
+    background: lime;
+}
+
+.color:nth-child(even) {
+    background: #fff;
+}
+
+.line:nth-child(odd) .color:nth-child(odd) {
+    background: lime;
+}
+
+.line:nth-child(odd) .color:nth-child(even) {
+    background: #fff;
+}
+
+.line:nth-child(even) .color:nth-child(odd) {
+    background: #fff;
+}
+
+.line:nth-child(even) .color:nth-child(even) {
+    background: lime;
+}

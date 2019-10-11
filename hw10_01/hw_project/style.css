@@ -1,0 +1,17 @@
+.container {
+    width: 80px;
+    height: 100vh;
+    background: rgba(153, 117, 167, 0.568);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.block{
+    width: 20%;
+    height: 40%;
+    border: dotted 10px rgb(90, 163, 114);
+    
+}

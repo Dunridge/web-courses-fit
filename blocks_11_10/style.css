@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+}
+
+.block__colums {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+
+.brick {
+    height: 100px;
+    width: 100px;
+}
+
+.brick1 {
+    background-color: #000000;
+}
+
+.brick2 {
+    background-color: #111111;
+}
+
+.brick3 {
+    background-color: #222222;
+}
+
+.brick4 {
+    background-color: #333333;
+}
+
+.brick5 {
+    background-color: #444444;
+}
+
+.brick6 {
+    background-color: #555555;
+}
+
+.brick7 {
+    background-color: #666666;
+}
+
+.brick8 {
+    background-color: #777777;
+}
+
+.brick9 {
+    background-color: #888888;
+}
