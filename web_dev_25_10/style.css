@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    background: grey;
+    width: 200px;
+    padding: 30px;
+    margin: 20px;
+}
+
+#top {
+    display: flex;
+}
+
+#bottom {
+    display: flex;
+}
+
+a:link {
+    cursor: pointer;
+    text-decoration: crosshair;
+    color: pink;
+}
+
+a:visited {
+    background: rgba(110, 5, 93, 0.233);
+    cursor: crosshair;
+    color: red;
+}
+
+a:hover {
+    background: rgb(41, 128, 56);
+    cursor: crosshair;
+    text-decoration: underline;
+    color: black;
+}
+
+a:active {
+    cursor: crosshair;
+    background: rgb(76, 172, 151);
+    text-decoration: underline;
+    color: pink;
+}
+
+td {
+    border: 3px solid hotpink;
+}

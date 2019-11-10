@@ -1,0 +1,6 @@
+Lesson: 
+1) Види підключення скріпта: в хеді, коли модулі (пхп, ангуляр, тд), але тоді будемо писати функцію onload, we write <p onclick="clickN()">
+2) html and doctype
+3) sdom2 
+4) document, object, model 
+5) 

@@ -1,0 +1,45 @@
+.block {
+    background: rgb(116, 54, 54);
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+@media(min-width: 0px) and (max-width: 480px) {
+    .block {
+        background: rgb(62, 145, 62);
+        width: 70%;
+    }
+}
+
+@media(min-width: 481px) and (max-width: 720px) {
+    .block {
+        background: rgba(78, 132, 163, 0.671);
+        width: 60%;
+    }
+}
+
+@media(min-width: 721px) and (max-width: 960px) {
+    .block {
+        background: rgb(87, 86, 131);
+        width: 70%;
+    }
+}
+
+@media(min-width: 961px) and (max-width: 1280px) {
+    .block {
+        background: rgb(192, 207, 52);
+        width: 70%;
+    }
+}
+
+.col,
+.col-sm-2,
+.col-sm-10 {
+    background: crimson;
+    margin: 2%;
+}
+
+* {
+    box-sizing: border-box;
+}

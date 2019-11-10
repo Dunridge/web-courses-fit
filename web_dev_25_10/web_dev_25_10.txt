@@ -1,0 +1,68 @@
+1) In CSS you can change styles of the visited webistes
+2) CSS --> LoveHate: a:link { } a:visited { } a; hover {} a: active {} --> first you have to write link and then visited 
+3) You have to clear the cache --> you have to install the extension 
+4) See the types of the crosshair
+5) There are four states of links: a:link, a:visted, a:hover, a:active
+6) To write a wall of text in a html file, you have to write Lorem1000
+7) table>tr*5>td{$}*7 --> generates columns and rows
+8) <td rowspan="2" colspan="2">6</td> --> can join elements of the tables 
+9) Table exercise:  
+<table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2" colspan="3">12</td>
+            <td rowspan="2" colspan="2">6</td>
+            <!-- <td>5</td> -->
+            <!-- <td rowspan="2" colspan="2">6</td> -->
+            <!-- <td>7</td> -->
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+            <!-- <td>10</td> -->
+            <!-- <td>11</td>
+            <td>12</td> -->
+            <!-- <td>13</td>
+            <td>14</td> -->
+        </tr>
+        <tr>
+            <td rowspan="3" colspan="4">25</td>
+            <!-- <td>16</td>
+            <td>17</td>
+            <td>18</td> -->
+            <td colspan="3" rowspan="3">33</td>
+            <!-- <td>20</td>
+            <td>21</td> -->
+        </tr>
+        <tr>
+            <!-- <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td> -->
+            <!-- <td>26</td>
+            <td>27</td>
+            <td>28</td> -->
+        </tr>
+        <tr>
+            <!-- <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td>32</td> -->
+            <!-- <td>33</td>
+            <td>34</td>
+            <td>35</td> -->
+        </tr>
+    </table>
+10) You can make the that link url not overlap by using padding display 
+flex: just use 
+#top {
+    display: flex;
+}
+
+#bottom {
+    display: flex;
+}
+
+11) Making puzzles with CSS: 
+12) To spread your cursor over the page use 
